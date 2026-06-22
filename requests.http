@@ -1,0 +1,44 @@
+### GiveTime API — sample requests (Project 2)
+# VS Code "REST Client" extension: click "Send Request" above each block.
+
+@base = http://localhost:4000
+
+### Health
+GET {{base}}/api/health
+
+### List all
+GET {{base}}/api/opportunities
+
+### Filter by cause
+GET {{base}}/api/opportunities?cause=Environment
+
+### Search
+GET {{base}}/api/opportunities?search=gomti
+
+### One
+GET {{base}}/api/opportunities/1
+
+### Missing (404)
+GET {{base}}/api/opportunities/9999
+
+### Create (201)
+POST {{base}}/api/opportunities
+Content-Type: application/json
+
+{
+  "title": "Park bench painting",
+  "organization": "City Volunteers",
+  "cause": "Community",
+  "location": "Lalbagh, Lucknow",
+  "date": "2026-08-01",
+  "slots": 10
+}
+
+### Create with bad data (400)
+POST {{base}}/api/opportunities
+Content-Type: application/json
+
+{
+  "title": "x",
+  "cause": "Spaceflight"
+}

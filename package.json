@@ -1,0 +1,17 @@
+{
+  "name": "givetime-api",
+  "version": "1.0.0",
+  "description": "GiveTime Project 2 — Backend API for the volunteering board (GET/POST + validation, in-memory store)",
+  "type": "module",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js",
+    "test": "node test/smoke-test.js"
+  },
+  "keywords": ["express", "rest-api", "backend", "volunteering"],
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.21.2"
+  }
+}
