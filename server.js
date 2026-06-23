@@ -1,5 +1,5 @@
 /* ===========================================================
-   GiveTime Backend API — Project 2
+   GiveTime Backend API, Project 2
    A simple Express server: GET/POST endpoints for volunteering
    opportunities, with validation, JSON responses, and proper
    HTTP status codes. Data is in memory (no database yet).
@@ -24,7 +24,7 @@ app.get("/api/health", (_req, res) => {
 
 app.get("/", (_req, res) => {
   res.status(200).json({
-    name: "GiveTime API — Project 2",
+    name: "GiveTime API, Project 2",
     endpoints: {
       "GET /api/health": "health check",
       "GET /api/opportunities": "list (?cause= & ?search=)",

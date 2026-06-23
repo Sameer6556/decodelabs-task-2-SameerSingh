@@ -1,4 +1,4 @@
-# GiveTime — Project 2: Backend API Development
+# GiveTime, Project 2: Backend API Development
 
 Week 2. The brain behind the GiveTime volunteering board: a **REST API** built
 with **Node.js + Express** that exposes `GET` and `POST` endpoints for
@@ -29,8 +29,8 @@ Then open <http://localhost:4000/api/opportunities>.
 
 | Method | Path | Description | Success | Errors |
 |---|---|---|---|---|
-| GET | `/api/health` | health check | 200 | — |
-| GET | `/api/opportunities` | list (`?cause=`, `?search=`) | 200 | — |
+| GET | `/api/health` | health check | 200 | none |
+| GET | `/api/opportunities` | list (`?cause=`, `?search=`) | 200 | none |
 | GET | `/api/opportunities/:id` | one | 200 | 404 |
 | POST | `/api/opportunities` | create (JSON) | 201 | 400 |
 

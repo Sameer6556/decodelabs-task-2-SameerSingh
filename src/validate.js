@@ -3,7 +3,7 @@
    Returns an array of human-readable errors ([] = valid).
    =========================================================== */
 
-export const CAUSES = ["Environment", "Education", "Health", "Community", "Animal Welfare"];
+export const CAUSES = ["Environment", "Education", "Health", "Community", "Animal Welfare", "Women Empowerment", "Elderly Care", "Disaster Relief", "Hunger Relief", "Arts and Culture", "Sports and Youth", "Mental Health"];
 const DATE_RE = /^\d{4}-\d{2}-\d{2}$/;
 
 export function validateOpportunity(body, { partial = false } = {}) {

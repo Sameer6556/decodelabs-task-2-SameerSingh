@@ -1,5 +1,5 @@
 /* ===========================================================
-   Opportunity routes — week 2 scope: GET + POST.
+   Opportunity routes, week 2 scope: GET + POST.
    Full CRUD (PUT/PATCH/DELETE) lands in week 3 with the database.
    =========================================================== */
 import { Router } from "express";

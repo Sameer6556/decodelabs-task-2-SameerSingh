@@ -1,7 +1,7 @@
 {
   "name": "givetime-api",
   "version": "1.0.0",
-  "description": "GiveTime Project 2 — Backend API for the volunteering board (GET/POST + validation, in-memory store)",
+  "description": "GiveTime Project 2, Backend API for the volunteering board (GET/POST + validation, in-memory store)",
   "type": "module",
   "main": "server.js",
   "scripts": {

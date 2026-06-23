@@ -1,4 +1,4 @@
-### GiveTime API — sample requests (Project 2)
+### GiveTime API, sample requests (Project 2)
 # VS Code "REST Client" extension: click "Send Request" above each block.
 
 @base = http://localhost:4000
